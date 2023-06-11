@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        
+            <input id="input" type="text" readonly>
+       
+        <div class="key">
+            <div class="first-row">
+                <button value="9" onclick="getValue(this)">9</button>
+                <button value="8" onclick="getValue(this)">8</button>
+                <button value="7" onclick="getValue(this)">7</button>
+                <button id="del">x</button>
+            </div>
+            <div class="second-row">
+                <button value="6" onclick="getValue(this)">6</button>
+                <button value="5" onclick="getValue(this)">5</button>
+                <button value="4" onclick="getValue(this)">4</button>
+                <button id="clear">C</button>
+            </div>
+            <div class="third-row">
+                <button value="3" onclick="getValue(this)">3</button>
+                <button value="2" onclick="getValue(this)">2</button>
+                <button value="1" onclick="getValue(this)">1</button>
+                <button value="*" onclick="getValue(this)">*</button>
+            </div>
+            <div class="fourth-row">
+                <button value="+" onclick="getValue(this)">+</button>
+                <button value="-" onclick="getValue(this)">-</button>
+                <button value="/" onclick="getValue(this)">/</button>
+                <button id="answer" >=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
