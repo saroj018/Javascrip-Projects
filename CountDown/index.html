@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>We are Comming soon</h1>
+        <p id="end-date"></p>
+        <div class="input">
+            <div class="day">
+                <input readonly id="day" type="text">
+                <p>Day</p>
+            </div>
+            <div class="hour">
+                <input readonly id="hour" type="text">
+                <p>Hour</p>
+            </div>
+            <div class="min">
+                <input readonly id="min" type="text">
+                <p>Min</p>
+            </div>
+            <div class="sec">
+                <input readonly id="sec" type="text">
+                <p>Sec</p>
+            </div>
+        </div>
+
+        <h3>Set Your Date</h3>
+        <input id="date-value" type="datetime-local">
+        <button id="btn">Set Date</button>
+        <audio id="audio" src="alram.mp3"></audio>
+
+        <p class="para">Today</p>
+        <p id="today-date"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
