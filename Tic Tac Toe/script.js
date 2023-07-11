@@ -17,6 +17,7 @@ box.forEach((box)=>{
             return
         }
         
+        
         id=e.target.id
         if(!area[id]){
             area[id]=currentPlayer
@@ -88,7 +89,7 @@ btn.addEventListener('click',()=>{
     })
     console.log(winBox);
     
-    
+
    winBox=[]
    console.log(winBox);
 })
