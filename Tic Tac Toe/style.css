@@ -1,0 +1,30 @@
+.container{
+    display: grid;
+    height: 600px;
+    width: 600px;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(3,200px);
+    border: red solid 2px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.box{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+}
+
+#heading{
+    text-align:end ;
+}
+
+#btn{
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
