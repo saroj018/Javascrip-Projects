@@ -1,8 +1,10 @@
+// this is tic tac toe game which is built on pure javascript
+
 let box=document.querySelectorAll('.box')
 let area=['','','','','','','','','']
 let o_text='O'
 let x_text='X'
-currentPlayer=o_text
+let currentPlayer=o_text
 let winBox=[]
 let turn=document.getElementById('turn')
 let drawPoint=0
@@ -11,8 +13,6 @@ let btn=document.getElementById('btn')
 
 box.forEach((box)=>{
     box.addEventListener('click',(e)=>{
-        console.log(area);
-        
         if(winBox.length===3){
             return
         }
@@ -86,5 +86,10 @@ btn.addEventListener('click',()=>{
         box[ele].style.background='white'
         box[ele].style.color='black'
     })
+    console.log(winBox);
+    
+    
+   winBox=[]
+   console.log(winBox);
 })
 
